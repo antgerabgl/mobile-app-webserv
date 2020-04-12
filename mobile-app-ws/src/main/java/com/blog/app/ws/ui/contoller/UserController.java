@@ -26,7 +26,7 @@ public class UserController {
 	@PutMapping
 	public String updateUser()
 	{
-		return "metodo updateUser()  llamado";
+		return "metodo updateUser()  llamado SE REALIZO UNA OPERACION CON EL COMANDO PUT";
 	}
 	
 	@DeleteMapping
