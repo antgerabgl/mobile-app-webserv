@@ -15,13 +15,12 @@ public class UserController {
 	public String getUser()
 	{
 		return "metodo getUser() llamado, SE REALIZO UNA OPERACION CON EL COMANDO GET";
-		
 	}
 	
 	@PostMapping
 	public String createUser()
 	{
-		return "metodo createUser()  llamado";
+		return "metodo createUser()  llamado SE REALIZO UNA OPERACION CON EL COMANDO POST";
 	}
 	
 	@PutMapping
