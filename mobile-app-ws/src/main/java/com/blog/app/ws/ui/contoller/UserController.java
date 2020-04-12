@@ -32,6 +32,6 @@ public class UserController {
 	@DeleteMapping
 	public String deleteUser()
 	{
-		return "metodo deleteUser()  llamado";
+		return "metodo deleteUser()  llamado SE REALIZO UNA OPERACION CON EL COMANDO DELETE";
 	}
 }//CLASE
