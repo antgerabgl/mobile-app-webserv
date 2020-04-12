@@ -14,7 +14,7 @@ public class UserController {
 	@GetMapping
 	public String getUser()
 	{
-		return "metodo getUser() llamado, SE REALIZO UNA OPERACION CON EL COMANDO GET";
+		return "metodo getUser() llamado, SE REALIZO UNA OPERACION CON EL COMANDO GET mas texto";
 	}
 	
 	@PostMapping
